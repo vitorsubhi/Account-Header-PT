@@ -7,15 +7,15 @@ int main()
 	do
 	{ // Mostrar Menu
 		clearscreen();
-		printf (" ______________\n");
-		printf ("|              |\n");
-		printf ("| 1 - Login    |\n");
-		printf ("| 2 - Cadastro |\n");
-		printf ("| 3 - Deletar  |\n");
-		printf ("| 4 - Editar   |\n");
-		printf ("|              |\n");
-		printf ("| 0 - Sair     |\n");
-		printf ("|______________|\n");
+		printf (" _____________________ \n");
+		printf ("|                     |\n");
+		printf ("| 1 - Login           |\n");
+		printf ("| 2 - Cadastro        |\n");
+		printf ("| 3 - Deletar conta   |\n");
+		printf ("| 4 - Recuperar senha |\n");
+		printf ("|                     |\n");
+		printf ("| 0 - Sair            |\n");
+		printf ("|_____________________|\n");
 		printf ("Escolha:");
 		scanf ("%d", &menu); // Escolher Opção do Menu
 	}while (menu<0 || menu>4);
