@@ -10,8 +10,8 @@ int main()
 		printf (" _____________________ \n");
 		printf ("|                     |\n");
 		printf ("| 1 - Login           |\n");
-		printf ("| 2 - Cadastro        |\n");
-		printf ("| 3 - Deletar conta   |\n");
+		printf ("| 2 - Registrar       |\n");
+		printf ("| 3 - Remover conta   |\n");
 		printf ("| 4 - Recuperar senha |\n");
 		printf ("|                     |\n");
 		printf ("| 0 - Sair            |\n");
